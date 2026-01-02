@@ -1,3 +1,30 @@
+
+
+### Instalasi Linux (deb)
+```
+sudo apt-get install git
+sudo apt-get install python3
+```
+
+### Instalasi Termux
+```
+pkg install git
+pkg install python3
+```
+
+### Copy Tools 
+```
+git clone https://github.com/mapelvader/os.git
+cd os
+pip3 install -r requirements.txt
+python3 d.py
+```
+### UNTUK MENJALANKAN
+```
+cd os
+python3 os.py
+```
+
 SCHOOLDOXV2 Adalah Program Script Profesional Berbasis Private Intelegence Yang Berfokus Untuk Mengambil, Mencari Dan Memvalidasi Data Siswa Sekolah Di Indonesia, Dirancang Untuk Analisis Data Pendidikan Yang Lengkap Dan Akurat
 
 – Dump Database Sekolah Lengkap Berdasarkan Npsn Sekolah Dan Menyediakan Informasi Lengkap Siswa
