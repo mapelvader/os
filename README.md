@@ -17,7 +17,7 @@ pkg install python3
 git clone https://github.com/mapelvader/os.git
 cd os
 pip3 install -r requirements.txt
-python3 d.py
+python3 os.py
 ```
 ### UNTUK MENJALANKAN
 ```
