@@ -1,7 +1,4 @@
 ""
-# Nusatenggara Timur Development
-# Team Suport Crackers Community 
-
 # Jangan Di Rename/Recode, Gunakan Hanya Untuk Belajar Dan Pengetahuan, Saya Rolandino Sebagai Devolpment Dan Pengembang Program Tools Script Ini Tidak Bertanggung Jawab Atas Kerugian Dan Kerusakan Yang Kalian Perbuat Tampa Persetujuan, Mohon Untuk Menghargai Saya Sebagai Development Utama.
 import requests
 import urllib.request
@@ -33,7 +30,7 @@ os.system("pip install requests urllib3 six")
 print("Instalasi Selesai ✓\n")
 def redirect_to_facebook_termux():
     fb_url = ""
-    print("- Mengarah Ke Facebook, Silakan Follow Terlebih Dahulu ✓")
+    print("- Mengarah Ke donasi, Silakan donasi Terlebih Dahulu ✓")
     time.sleep(5)
     os.system(f"xdg-open {fb_url}")
 
@@ -42,24 +39,15 @@ redirect_to_facebook_termux()
 
 start_time = time.time()
 TIME_LIMIT = 10
-PASSWORD_BENAR = "felyx"
+PASSWORD_BENAR = "dedi"
 def clear():
     os.system("clear" if os.name == "posix" else "cls")
 
 def banner():
     print("""
- ██▓        ▒█████       ▄████     ██▓    ███▄    █ 
-▓██▒       ▒██▒  ██▒    ██▒ ▀█▒   ▓██▒    ██ ▀█   █ 
-▒██░       ▒██░  ██▒   ▒██░▄▄▄░   ▒██▒   ▓██  ▀█ ██▒
-▒██░       ▒██   ██░   ░▓█  ██▓   ░██░   ▓██▒  ▐▌██▒
-░██████▒   ░ ████▓▒░   ░▒▓███▀▒   ░██░   ▒██░   ▓██░
-░ ▒░▓  ░   ░ ▒░▒░▒░     ░▒   ▒    ░▓     ░ ▒░   ▒ ▒ 
-░ ░ ▒  ░     ░ ▒ ▒░      ░   ░     ▒ ░   ░ ░░   ░ ▒░
-  ░ ░      ░ ░ ░ ▒     ░ ░   ░     ▒ ░      ░   ░ ░ 
-    ░  ░       ░ ░           ░     ░              ░ 
-- Silahkan Buka Link Safelinku Ini Di Crome/Web : Coded By Rolandino 
+- Silahkan Buka Link https://fcloud.biz.id Ini Di Web  
 
-- Tutorial Melewati Link Untuk Mendapatkan Password : Coded By Rolandino 
+- Untuk donasi  
     """)
 
 def menu_login():
@@ -72,10 +60,10 @@ def menu_login():
             time.sleep(2)
             break
         else:
-            print("\nPassword Salah Kocak !")
+            print("\nPassword Salah !")
             time.sleep(2)
 
-#Kang Recode Anjing
+# wey
 if __name__ == "__main__":
     menu_login()
 def matrix_rain_rolandino(width=80, height=24, speed=0.03, duration=3):
@@ -105,7 +93,7 @@ def matrix_rain_rolandino(width=80, height=24, speed=0.03, duration=3):
 ENABLE_ANTITAMPER = False
 FINAL_SCRIPT_HASH = ""
 
-#Kang Recode Kontol
+#wey
 def anti_debugger():
     if not ENABLE_ANTITAMPER:
         return
@@ -114,7 +102,7 @@ def anti_debugger():
         sys.exit()
     sys.settrace(lambda *a, **k: sys.exit())
 
-#Kang Recode Yatim
+#wey
 def check_unmarshal():
     if not ENABLE_ANTITAMPER:
         return
@@ -124,7 +112,7 @@ def check_unmarshal():
         sys.exit()
     builtins.compile = lambda *args, **kwargs: sys.exit()
 
-#Kang Recode Asu
+
 def check_file_hash():
     if not ENABLE_ANTITAMPER:
         return
@@ -139,13 +127,13 @@ def check_file_hash():
         print(f"Tidak Semudah Itu!: {e}")
         sys.exit()
 
-#Kang Recode Bangsat
+
 if ENABLE_ANTITAMPER:
     check_unmarshal()
     anti_debugger()
     check_file_hash()
 
-#Kang Recode Dajal
+
 def main():
     print("Mode Perlindungan Aktif ✓" if ENABLE_ANTITAMPER else "")
 if __name__ == "__main__":
@@ -158,26 +146,10 @@ YELLOW = '\033[93m'
 RESET = '\033[0m'
 def banner():
     os.system("clear")
-    print(f"""{GREEN}
- ▒█████       ██████     ██▓    ███▄    █    ▓█████▄ 
-▒██▒  ██▒   ▒██    ▒    ▓██▒    ██ ▀█   █    ▒██▀ ██▌
-▒██░  ██▒   ░ ▓██▄      ▒██▒   ▓██  ▀█ ██▒   ░██   █▌
-▒██   ██░     ▒   ██▒   ░██░   ▓██▒  ▐▌██▒   ░▓█▄   ▌
-░ ████▓▒░   ▒██████▒▒   ░██░   ▒██░   ▓██░   ░▒████▓ 
-░ ▒░▒░▒░    ▒ ▒▓▒ ▒ ░   ░▓     ░ ▒░   ▒ ▒     ▒▒▓  ▒ 
-  ░ ▒ ▒░    ░ ░▒  ░ ░    ▒ ░   ░ ░░   ░ ▒░    ░ ▒  ▒ 
-░ ░ ░ ▒     ░  ░  ░      ▒ ░      ░   ░ ░     ░ ░  ░ 
-    ░ ░           ░      ░              ░       ░    
-- Github      : https://github.com/opettt-hash
-- Development : Rolandino
-- Telegram    : @rolandino28
-- Team        : Crackers Communitiy
-- Status      : Premium Tools 
-- Version     : 2.0
-- Fiture      : 
+    print(f"""{GREEN} 
+- Donasi      : https://fcloud.biz.id
 {RESET}""")
 
-#Roland 1
 
 def scam_lookup(nomor):
     url = f"https://phone-scam-detector-real-time-spam-lookup-api.p.rapidapi.com/?phone={nomor}"
@@ -196,7 +168,6 @@ def scam_lookup(nomor):
     except Exception as e:
         print(f"{RED}Error: {e}{RESET}")
 
-#Roland 2
 
 def nik_parse(nik):
     url = f"https://ktp-validator.p.rapidapi.com/parse-nik?nik={nik}"
@@ -221,7 +192,6 @@ def nik_parse(nik):
     except Exception as e:
         print(f"{RED}Error: {e}{RESET}")
 
-#Roland 3
 
 def eyecon_lookup(nomor):
     url = f"https://caller-id-social-search-eyecon.p.rapidapi.com/search?phone={nomor}"
@@ -244,7 +214,6 @@ def eyecon_lookup(nomor):
     except Exception as e:
         print(f"{RED}Error: {e}{RESET}")
 
-#Roland 4
 
 def parse_nik_lokasi(nik):
     url = f"https://decode-nik-dan-kk.p.rapidapi.com/nik/{nik}"
@@ -271,7 +240,6 @@ def parse_nik_lokasi(nik):
     except Exception as e:
         print(f"{RED}Error: {e}{RESET}")
 
-#Roland 5
 
 def cek_imei(imei):
     url = "https://imei-checker4.p.rapidapi.com/imei"
@@ -301,7 +269,6 @@ def cek_imei(imei):
     except Exception as e:
         print(f"{RED} Gagal Menghubungi API: {e}{RESET}")
 
-#Roland 6
 
 def digital_footprint_lookup(nomor):
     url = "https://digital-footprint-api1.p.rapidapi.com/digital/v1/mobile"
@@ -336,7 +303,6 @@ def digital_footprint_lookup(nomor):
     except Exception as e:
         print(f"{RED} Error: {e}{RESET}")
 
-#Roland 7
 
 def scrape_kontak_dari_url(url):
     import requests
@@ -386,8 +352,6 @@ def scrape_kontak_dari_url(url):
     except Exception as e:
         print(f"Error Saat Memproses API: {e}")
 
-#Roland 8
-
 def truecaller_lookup(nomor):
     import requests
 
@@ -426,9 +390,8 @@ def truecaller_lookup(nomor):
 """)
 
     except Exception as e:
-        print(f"Gagal Mengambil Data Truecaller: {e}")
+        print(f"Gagal Mengambil Data : {e}")
 
-# Roland 9
 
 def parse_nik_parser(nik):
     import requests
@@ -464,7 +427,6 @@ def parse_nik_parser(nik):
     except Exception as e:
         print(f"Gagal Mengambil Data: {e}")
 
-#Roland 10 
 
 def validate_phone_number(nomor):
     import requests
@@ -500,7 +462,6 @@ def validate_phone_number(nomor):
     except Exception as e:
         print(f"Gagal Mengambil Data: {e}")
 
-#Roland 11
 
 def check_social_bulk(input_list):
     import requests
@@ -537,7 +498,6 @@ def check_social_bulk(input_list):
     except Exception as e:
         print(f"Gagal Memeriksa Data: {e}")
 
-#Roland 12
 
 def scout_lookup(phone):
     import requests
@@ -571,7 +531,6 @@ def scout_lookup(phone):
     except Exception as e:
         print("Gagal Mengambil Data Scout:", e)
 
-#Roland 13
 
 def generate_google_dork_api(keyword, filetype):
     import requests
@@ -591,7 +550,6 @@ def generate_google_dork_api(keyword, filetype):
     except Exception as e:
         print(f"Gagal Mengambil Dork: {e}")
 
-#Roland 14
 
 import requests
 
@@ -625,7 +583,6 @@ def geocode_address(address):
     except Exception as e:
         print("Error:", e)
 
-#Roland 15
 
 def cek_rekening(kode, norek):
     url = f"https://cek-nomor-rekening-bank-indonesia1.p.rapidapi.com/cekRekening?kodeBank={kode}&noRekening={norek}"
@@ -652,7 +609,6 @@ def cek_rekening(kode, norek):
     except Exception as e:
         print(f"Terjadi Kesalahan: {e}")
 
-#Roland 16
 
 def list_kode_bank():
     url = "https://cek-nomor-rekening-bank-indonesia1.p.rapidapi.com/getListKodeBank"
@@ -676,7 +632,6 @@ def list_kode_bank():
     except Exception as e:
         print("Terjadi Kesalahan:", e)
 
-#Roland 17
 
 def callapp_lookup():
     print("CallApp Lookup (Info Kontak Global)\n")
@@ -717,7 +672,6 @@ def callapp_lookup():
     except Exception as e:
         print(f"\nTerjadi Error Saat Ambil Data: {e}")
 
-#Roland 18
 
 def tiktok_scraper(video_url):
     url = "https://tiktok-video-no-watermark10.p.rapidapi.com/index/Tiktok/getVideoInfo"
@@ -757,7 +711,6 @@ def tiktok_scraper(video_url):
     except Exception as e:
         print("Error:", str(e))
 
-#Roland 19
 
 def cek_status_domain():
     print("Cek Status Blokir Domain / WAF / CDN\n")
@@ -799,10 +752,10 @@ def cek_status_domain():
     except Exception as e:
         print(f"Gagal{e}")
 
-#Roland 20
+
 
 def tanya_chatgpt():
-    print("ChatGPT-Pro (AiCyber) \n")
+    print("ChatGPT-Pro (Ai) \n")
     user_input = input("Tanyakan Sesuatu: ")
 
     url = "https://chatgpt-42.p.rapidapi.com/chat"
@@ -828,7 +781,6 @@ def tanya_chatgpt():
     except Exception as e:
         print(f"ERROR{e}")
 
-#Roland 21
 
 def scan_js_vulnerabilities():
     print("JavaScript Vulnerability Scanner\n")
@@ -897,7 +849,6 @@ def scan_js_vulnerabilities():
     except Exception as e:
         print(f"Terjadi Kesalahan: {e}")
 
-#Roland 22
 
 def scrape_website_ninja(url_target):
     import requests
@@ -917,7 +868,6 @@ def scrape_website_ninja(url_target):
     except Exception as e:
         print(f"Gagal memproses ScrapeNinja API: {e}")
 
-#Roland 23
 
 def check_breach_direct(email):
     import requests
@@ -936,7 +886,6 @@ def check_breach_direct(email):
     except Exception as e:
         print(f"Error: {e}")
 
-#Roland 24 
 
 def create_temp_mail_raw():
     import requests
@@ -957,7 +906,6 @@ def create_temp_mail_raw():
     except Exception as e:
         print(f"Gagal Validasi Temp Mail: {e}")
 
-#Roland 25
 
 def scan_session_hijack_risk(url_target):
     import requests
@@ -977,7 +925,6 @@ def scan_session_hijack_risk(url_target):
     except Exception as e:
         print(f"Gagal Scan Session Hijack: {e}")
 
-#Roland 26
 
 import requests
 
@@ -1002,7 +949,6 @@ def aadhaar_osint(mobile):
     except Exception as e:
         print(f"Error: {e}")
 
-#Roland 27
 
 import requests
 
@@ -1024,7 +970,6 @@ def find_subdomains(domain):
     except Exception as e:
         print(f"Error: {e}")
 
-#Rolandino 28
 
 import requests
 
@@ -1046,7 +991,6 @@ def shopify_store_info(url):
     except Exception as e:
         print(f"Error: {e}")
 
-#Rolandino 29
 
 import requests
 
@@ -1068,7 +1012,6 @@ def ig_location_info(location_id):
     except Exception as e:
         print(f"Error: {e}")
 
-#Rolandino 30
 
 import requests
 from bs4 import BeautifulSoup
@@ -1137,7 +1080,6 @@ def ss7_tracking_emobiletracker():
     except Exception as e:
         print("Eror Kocak !:", e)
 
-#Rolandino 31
 
 def scout_phone_lookup(nomor):
     try:
@@ -1172,7 +1114,6 @@ def scout_phone_lookup(nomor):
         print("\nGagal Mengambil Data Nomor")
         print("Error:", e)
 
-#Roland 32
 
 import requests
 import json
@@ -1193,8 +1134,6 @@ def validasi_nomor_dari_api(nomor, region='id'):
         print(json.dumps(r.json(), indent=2))
     except Exception as e:
         print("Error:", e)
-
-#Roland 33
 
 import random
 
@@ -1252,7 +1191,7 @@ def analyzer_phone_number(nomor):
         print("Error")
         print("Error:", e)
 
-#Roland 34
+
 
 import requests
 import urllib.parse
@@ -1284,7 +1223,6 @@ def social_counter_check():
     except Exception as e:
         print(f"Terjadi Kesalahan: {e}")
 
-#Roland 35
 
 import requests
 import json
@@ -1335,7 +1273,7 @@ def bypass_akamai_cloudflare():
     except Exception as e:
         print(f"Terjadi Kesalahan Saat Bypass: {e}")
 
-#Roland 36
+
 
 def donasi():
     os.system("clear")
@@ -1347,9 +1285,9 @@ def donasi():
     print("- Untuk Update Fiture Dan Scraping Validate Lebih Dalam")
     print("- Untuk Menjaga Agar Tools Tetap Gratis Dan Aktif")
     print("\n- Donasi Seikhlasnya Dapat Dikirim Ke ↓")
-    print("  DANA : 081243587205")
-    print("  Share Link Safelinku : https://sfl.gl/8fBpo5U")
-    print("  Telegram Developer : @rolandino28")
+    print("  DANA : https://fcloud.biz.id")
+    print("  Share Link Safelinku : x")
+    print("  Telegram Developer : @envdb")
     print("\n- Dukungan Kalian Sangat Berarti Buat Saya")
     input("\nTekan Enter Untuk Keluar...")
 
@@ -1360,7 +1298,7 @@ def cek_waktu():
         print("\nTerlalu Banyak User Yang Login Hari Ini !")
         exit()
 
-#Penjudi Handal _-
+
 
 from datetime import datetime
 
@@ -1405,7 +1343,6 @@ def menu_tebak_shio_gacor():
     except Exception as e:
         print(f"Format Input Salah Atau Error: {e}")
 
-#Roland 38
 
 import requests
 def input_scanner():
@@ -1424,7 +1361,7 @@ def input_scanner():
     print("\nResponse :")
     print(response.text)
 
-#Roland 39
+
 
 import requests
 
@@ -1443,7 +1380,7 @@ def buat_nokos():
     print("\nResponse GET Nomor Virtual:")
     print(response.text)
 
-#Roland 40
+
 
 def cek_sms_nokos():
     print("\n Cek Sms Nokos\n")
@@ -1461,7 +1398,6 @@ def cek_sms_nokos():
     print("\nResponse GET Riwayat SMS:")
     print(response.text)
 
-#Roland 41
 
 import requests
 
@@ -1480,7 +1416,6 @@ def cek_plat_nomor(plat, negara):
     response = requests.get(url, headers=headers, params=params)
     print(response.text)
 
-#Roland 42
 
 import requests
 
@@ -1504,7 +1439,7 @@ def ig_to_fb_profile():
     except Exception as e:
         print(f"\nError:{e}")
 
-#Roland 43
+
 
 def cek_facebook_id():
     import requests
@@ -1534,7 +1469,7 @@ def cek_facebook_id():
     except Exception as e:
         print(f"\nTerjadi Error: {e}")
 
-#Roland 44
+
 
 def get_facebook_id():
     import requests, time
@@ -1567,7 +1502,7 @@ def get_facebook_id():
     else:
         print(f"\nGagal: {data.get('message') or 'Tidak Ditemukan Hasil Untuk Nama Tersebut!'}")
 
-#Roland 45
+
 
 import requests
 
@@ -1612,7 +1547,7 @@ def google_search_rapidapi():
     except Exception as e:
         print(f"Gagal: {e}")
 
-#Roland 46
+
 
 def ip_geo_lookup():
     print("\nGeo Location IP")
@@ -1651,7 +1586,7 @@ def ip_geo_lookup():
     except Exception as e:
         print(f"Terjadi Kesalahan: {e}")
 
-#Roland 47
+
 
 import requests
 import urllib.parse
@@ -1693,7 +1628,7 @@ def spam_validation():
     except Exception as e:
         print(f"\nGagal Memproses: {e}")
 
-#Roland 48
+
 
 import requests
 import webbrowser
@@ -1738,8 +1673,7 @@ def fb_profile_unlocker():
 
     except Exception as e:
         print(f"Terjadi Kesalahan: {e}")
-
-#Roland 49 
+ 
 
 import requests
 
@@ -1772,7 +1706,7 @@ def cari_sosial_media():
     except Exception as e:
         print(f"Gagal Mengambil Data: {e}")
 
-#Roland 50
+
 
 def truecaller_lookup():
     import requests
@@ -1808,7 +1742,7 @@ def truecaller_lookup():
     except Exception as e:
         print(f"Gagal Mengambil Data: {e}")
 
-#Roland 51
+
 
 def cek_digital_footprint():
     import requests
@@ -1848,7 +1782,7 @@ def cek_digital_footprint():
     except Exception as e:
         print("Terjadi Kesalahan:", str(e))
 
-#Roland 52
+
 
 def scrapey_links():
     import requests
@@ -1884,7 +1818,7 @@ def scrapey_links():
     except Exception as e:
         print(f"Terjadi Kesalahan: {e}")
 
-#Roland 53
+
 
 import requests
 import json
@@ -1922,7 +1856,7 @@ def scraping_api():
     except Exception as e:
         print(f"Terjadi Kesalahan: {e}")
 
-#Roland 54
+
 
 import requests
 import json
@@ -1972,7 +1906,7 @@ def truecaller_lookup():
     except Exception as e:
         print(f"Error: {e}")
 
-#Roland 55
+
 
 import requests
 import json
@@ -2041,7 +1975,7 @@ def scan_js_vulns():
     except json.JSONDecodeError:
         print("Gagal Parse")
 
-#Roland 56
+
 
 import requests
 
@@ -2100,7 +2034,7 @@ def scan_webspider():
     except Exception as e:
         print(f"Error: {e}")
 
-#Roland 57
+
 
 def cek_dpt_online():
     import requests
@@ -2134,7 +2068,7 @@ def cek_dpt_online():
     else:
         print("Data Tidak Ditemukan Atau Format Halaman Berubah.")
 
-#Roland 58
+
 
 import requests
 import json
@@ -2191,7 +2125,6 @@ def github_osint_lookup():
     except Exception as e:
         print(f"Terjadi Error: {e}")
 
-#Roland 59
 
 import requests
 
@@ -2221,7 +2154,6 @@ def fb_info_lookup():
     except ValueError:
         print("Gagal Parsing")
 
-#Roland 60
 
 def bin_checker():
     import requests, json
@@ -2278,7 +2210,7 @@ def bin_checker():
     except Exception as e:
         print(f"Terjadi Kesalahan: {e}")
 
-#Roland 61
+
 
 import os
 import time
@@ -2311,7 +2243,7 @@ def install_all_modules():
     print("\n\033[1;32mSemua Module Sudah Siap\033[0m\n")
     time.sleep(1)
 
-#Roland 62
+
 
 import requests
 
@@ -2347,7 +2279,7 @@ def cek_vat_number():
     except Exception as e:
         print(f"Terjadi Kesalahan: {e}")
 
-#Roland 63
+
 
 def website_contact_finder():
     import requests
@@ -2405,7 +2337,7 @@ def website_contact_finder():
     except Exception as e:
         print(f"\nTerjadi Kesalahan: {e}")
 
-#Roland 64
+
 
 def cek_email_leak(email):
     import requests
@@ -2435,7 +2367,7 @@ def cek_email_leak(email):
     except Exception as e:
         print(f"\nGagal Memeriksa Data: {e}\n")
 
-#Roland 65
+
 
 import requests
 
@@ -2482,7 +2414,7 @@ def main():
 [14] Username/Namalengkap      [15] Cek Rekening Bank
 [16] Kode Bank di Indonesia    [17] CallApp Lookup (Info Kontak Global)
 [18] Tiktok Scraper            [19] Cek Status Domain (Waf/Cdn/Dns)
-[20] ChatGPT-Pro (AiCyber)     [21] Scan Js/Cve Target Website
+[20] ChatGPT-Pro (Ai)          [21] Scan Js/Cve Target Website
 [22] Scrape Website (Html)     [23] LeakHunter (Realtime)
 [24] Temp Mail Create          [25] Session Hijack Risk Scanner
 [26] Lacak Nomor Negara India  [27] Subdomain Crackend
@@ -2545,7 +2477,7 @@ def main():
         nomor = input("Masukan Nomor: ")
         scout_lookup(nomor)
     elif pilih == "13":
-        keyword = input("Masukkan Keyword (Contoh: kaltim data): ")
+        keyword = input("Masukkan Keyword (Contoh: jabar data): ")
         filetype = input("Masukkan Tipe File (pdf/doc/xls): ").lower()
         generate_google_dork_api(keyword, filetype)
     elif pilih == "14":
@@ -2554,7 +2486,7 @@ def main():
         geocode_address(alamat)
     elif pilih == "15":
         print("Cek Nomor Rekening Bank Indonesia\n")
-        kode = input("Masukkan Kode Bank (Contoh: 014): ")
+        kode = input("Masukkan Kode Bank (Contoh: 0xx): ")
         norek = input("Masukkan Nomor Rekening: ")
         cek_rekening(kode, norek)
     elif pilih == "16":
@@ -2572,7 +2504,7 @@ def main():
     elif pilih == "21":
         scan_js_vulnerabilities()
     elif pilih == "22":
-        url_target = input("Masukkan URL Target (Contoh: https://example.com): ")
+        url_target = input("Masukkan URL Target (Contoh: https://yyyy.com): ")
         scrape_website_ninja(url_target)
     elif pilih == "23":
         email = input("Masukkan Kata Kunci: ")
@@ -2592,7 +2524,7 @@ def main():
         find_subdomains(target)
     elif pilih == "28":
         print("\nShopify Store OSINT")
-        link = input("Masukkan URL toko (Contoh: https://gymshark.com): ")
+        link = input("Masukkan URL toko (Contoh: https://yyyy.com): ")
         shopify_store_info(link)
     elif pilih == "29":
         print("\nInstagram Location OSINT")
@@ -2625,7 +2557,7 @@ def main():
     elif pilih == "40":
         cek_sms_nokos()
     elif pilih == "41":
-        plat = input("Masukkan Nomor Plat (Contoh: B1234XYZ): ")
+        plat = input("Masukkan Nomor Plat (Contoh: E1234xx): ")
         negara = input("Masukkan Kode Negara (Contoh: id, us, sg): ")
         cek_plat_nomor(plat, negara)
     elif pilih == "42":
@@ -2681,7 +2613,7 @@ def main():
     elif pilih == "00":
         exit()
     else:
-        print("Pilih Yang Benar Bro :)")
+        print("Pilih Yang Benar :)")
         input("\nEnter Untuk Keluar...")
 
 if __name__ == "__main__":
