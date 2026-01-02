@@ -614,7 +614,7 @@ def list_kode_bank():
     url = "https://cek-nomor-rekening-bank-indonesia1.p.rapidapi.com/getListKodeBank"
     headers = {
         "x-rapidapi-host": "cek-nomor-rekening-bank-indonesia1.p.rapidapi.com",
-        "x-rapidapi-key": "5092fa3ed9msha059ba448947976p1e6732jsn67df823a02ab"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     try:
@@ -641,7 +641,7 @@ def callapp_lookup():
     url = f"https://callapp.p.rapidapi.com/api/v1/search?code={kode}&number={nomor}"
     headers = {
         "x-rapidapi-host": "callapp.p.rapidapi.com",
-        "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     try:
@@ -679,7 +679,7 @@ def tiktok_scraper(video_url):
     headers = {
         "content-type": "application/x-www-form-urlencoded",
         "X-RapidAPI-Host": "tiktok-video-no-watermark10.p.rapidapi.com",
-        "X-RapidAPI-Key": "d0f697a402msh5db691d2b18cfe3p1ca359jsnd9c219bd5948"
+        "X-RapidAPI-Key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     try:
@@ -719,7 +719,7 @@ def cek_status_domain():
         url = f"https://blockcheck-pro-dns-geo-waf-access-analyzer.p.rapidapi.com/?url={domain}"
         headers = {
             "x-rapidapi-host": "blockcheck-pro-dns-geo-waf-access-analyzer.p.rapidapi.com",
-            "x-rapidapi-key": "d0f697a402msh5db691d2b18cfe3p1ca359jsnd9c219bd5948"
+            "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
         }
         response = requests.get(url, headers=headers)
         data = result = response.json()
@@ -762,7 +762,7 @@ def tanya_chatgpt():
     headers = {
         "Content-Type": "application/json",
         "x-rapidapi-host": "chatgpt-42.p.rapidapi.com",
-        "x-rapidapi-key": "d0f697a402msh5db691d2b18cfe3p1ca359jsnd9c219bd5948"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     data = {
         "model": "gpt-4o-mini",
@@ -790,7 +790,7 @@ def scan_js_vulnerabilities():
     headers = {
         "Content-Type": "application/json",
         "x-rapidapi-host": "active-cyber-defence-tools.p.rapidapi.com",
-        "x-rapidapi-key": "d0f697a402msh5db691d2b18cfe3p1ca359jsnd9c219bd5948"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     payload = {
         "target": target,
@@ -858,7 +858,7 @@ def scrape_website_ninja(url_target):
     api_url = f"https://scrapeninja.p.rapidapi.com/scrape?url={url_target}"
     headers = {
         "x-rapidapi-host": "scrapeninja.p.rapidapi.com",
-        "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     try:
@@ -876,7 +876,7 @@ def check_breach_direct(email):
     url = f"https://breachdirectory.p.rapidapi.com/?func=auto&term={email}"
     headers = {
         "x-rapidapi-host": "breachdirectory.p.rapidapi.com",
-        "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     try:
@@ -895,7 +895,7 @@ def create_temp_mail_raw():
     headers = {
         "Content-Type": "application/json",
         "x-rapidapi-host": "temp-mail44.p.rapidapi.com",
-        "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     payload = {"key1": "value", "key2": "value"}
 
@@ -915,7 +915,7 @@ def scan_session_hijack_risk(url_target):
     url = f"https://session-hijack-risk-scanner.p.rapidapi.com/?url={url_target}"
     headers = {
         "x-rapidapi-host": "session-hijack-risk-scanner.p.rapidapi.com",
-        "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     try:
@@ -932,7 +932,7 @@ def aadhaar_osint(mobile):
     url = "https://aadhaar-phone-osint.p.rapidapi.com/"
     headers = {
         "x-rapidapi-host": "aadhaar-phone-osint.p.rapidapi.com",
-        "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     params = {
         "key": "icodeinbinary",
@@ -956,7 +956,7 @@ def find_subdomains(domain):
     url = "https://instant-subdomain-finder-api.p.rapidapi.com/"
     headers = {
         "x-rapidapi-host": "instant-subdomain-finder-api.p.rapidapi.com",
-        "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     params = {"domain": domain}
 
@@ -977,7 +977,7 @@ def shopify_store_info(url):
     endpoint = "https://shopify-stores-info.p.rapidapi.com/store/analyticsv2"
     headers = {
         "x-rapidapi-host": "shopify-stores-info.p.rapidapi.com",
-        "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     params = {"url": url}
 
@@ -998,7 +998,7 @@ def ig_location_info(location_id):
     url = "https://instagram-api-fast-reliable-data-scraper.p.rapidapi.com/location/info"
     headers = {
         "x-rapidapi-host": "instagram-api-fast-reliable-data-scraper.p.rapidapi.com",
-        "x-rapidapi-key": "d0f697a402msh5db691d2b18cfe3p1ca359jsnd9c219bd5948"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     params = {"location_id": location_id}
 
@@ -1018,7 +1018,7 @@ from bs4 import BeautifulSoup
 
 def ss7_tracking_emobiletracker():
     print("\nSS7 TRACKING via emobiletracker.com")
-    nomor = input("Masukkan Nomor Target (cth: 081234567890): ").strip()
+    nomor = input("Masukkan Nomor Target (cth: 08xxxxx): ").strip()
 
     # Normalisasi nomor
     if nomor.startswith("+"):
@@ -1088,7 +1088,7 @@ def scout_phone_lookup(nomor):
         url = f"https://scout.p.rapidapi.com/v1/numbers/search?dialcode=%2B{nomor.lstrip('+')}"
         headers = {
             "x-rapidapi-host": "scout.p.rapidapi.com",
-            "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f"
+            "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
         }
 
         response = requests.get(url, headers=headers)
@@ -1123,7 +1123,7 @@ def validasi_nomor_dari_api(nomor, region='id'):
     headers = {
         "Content-Type": "application/json",
         "X-RapidAPI-Host": "phone-number-analyzer.p.rapidapi.com",
-        "X-RapidAPI-Key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f"
+        "X-RapidAPI-Key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     payload = {
         "number": nomor,
@@ -1146,7 +1146,7 @@ def analyzer_phone_number(nomor):
     headers = {
         "Content-Type": "application/json",
         "x-rapidapi-host": "phone-number-analyzer.p.rapidapi.com",
-        "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     payload = {
@@ -1205,7 +1205,7 @@ def social_counter_check():
 
     headers = {
         "x-rapidapi-host": "social-counter.p.rapidapi.com",
-        "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     try:
@@ -1235,7 +1235,7 @@ def bypass_akamai_cloudflare():
     headers = {
         "Content-Type": "application/json",
         "x-rapidapi-host": "bypass-akamai-cloudflare.p.rapidapi.com",
-        "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     payload = {
@@ -1291,7 +1291,6 @@ def donasi():
     print("\n- Dukungan Kalian Sangat Berarti Buat Saya")
     input("\nTekan Enter Untuk Keluar...")
 
-#Nusatenggara Timur Indonesia
 
 def cek_waktu():
     if time.time() - start_time > TIME_LIMIT:
@@ -1353,7 +1352,7 @@ def input_scanner():
     headers = {
         "Content-Type": "application/json",
         "X-RapidAPI-Host": "secure-input-scanner-check-and-prevent-malicious-activities.p.rapidapi.com",
-        "X-RapidAPI-Key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f"
+        "X-RapidAPI-Key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     payload = {"input": user_input}
 
@@ -1370,7 +1369,7 @@ def buat_nokos():
 
     headers = {
         "x-rapidapi-host": "global-virtual-number-api.p.rapidapi.com",
-        "x-rapidapi-key": "d0f697a402msh5db691d2b18cfe3p1ca359jsnd9c219bd5948"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     country = input("Masukkan Country Code (Tanpa +): ").strip()
@@ -1387,7 +1386,7 @@ def cek_sms_nokos():
 
     headers = {
         "x-rapidapi-host": "global-virtual-number-api.p.rapidapi.com",
-        "x-rapidapi-key": "d0f697a402msh5db691d2b18cfe3p1ca359jsnd9c219bd5948"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     country = input("Masukkan Country Code (Tanpa +): ").strip()
@@ -1405,7 +1404,7 @@ def cek_plat_nomor(plat, negara):
     url = "https://apibroker-license-plate-search-v1.p.rapidapi.com/license-plate-search"
     headers = {
         "x-rapidapi-host": "apibroker-license-plate-search-v1.p.rapidapi.com",
-        "x-rapidapi-key": "d0f697a402msh5db691d2b18cfe3p1ca359jsnd9c219bd5948"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     params = {
         "format": "json",
@@ -1427,7 +1426,7 @@ def ig_to_fb_profile():
     headers = {
         "Content-Type": "application/x-www-form-urlencoded",
         "x-rapidapi-host": "instagram-scraper-stable-api.p.rapidapi.com",
-        "x-rapidapi-key": "d0f697a402msh5db691d2b18cfe3p1ca359jsnd9c219bd5948"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     payload = f"username_or_url={user_input}"
 
@@ -1482,7 +1481,7 @@ def get_facebook_id():
     url = "https://facebook-profile-search.p.rapidapi.com/search"
     headers = {
         "X-RapidAPI-Host": "facebook-profile-search.p.rapidapi.com",
-        "X-RapidAPI-Key": "d0f697a402msh5db691d2b18cfe3p1ca359jsnd9c219bd5948",
+        "X-RapidAPI-Key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9",
         "Content-Type": "application/json"
     }
     payload = {
@@ -1521,7 +1520,7 @@ def google_search_rapidapi():
 
     headers = {
         "x-rapidapi-host": "google-search74.p.rapidapi.com",
-        "x-rapidapi-key": "d0f697a402msh5db691d2b18cfe3p1ca359jsnd9c219bd5948"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     try:
@@ -1559,7 +1558,7 @@ def ip_geo_lookup():
     url = f"https://ip-geo-location10.p.rapidapi.com/ip?ip={ip}"
     headers = {
         "x-rapidapi-host": "ip-geo-location10.p.rapidapi.com",
-        "x-rapidapi-key": "d0f697a402msh5db691d2b18cfe3p1ca359jsnd9c219bd5948"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     try:
@@ -1600,7 +1599,7 @@ def spam_validation():
 
     headers = {
         "x-rapidapi-host": "phone-number-spam-validation-free.p.rapidapi.com",
-        "x-rapidapi-key": "5092fa3ed9msha059ba448947976p1e6732jsn67df823a02ab"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     try:
@@ -1645,7 +1644,7 @@ def fb_profile_unlocker():
 
         headers = {
             "x-rapidapi-host": "facebook-profile-picture-viewer.p.rapidapi.com",
-            "x-rapidapi-key": "5092fa3ed9msha059ba448947976p1e6732jsn67df823a02ab"
+            "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
         }
 
         response = requests.get(api_url, headers=headers, timeout=10)
@@ -1685,7 +1684,7 @@ def cari_sosial_media():
     url = f"https://social-links-search.p.rapidapi.com/search-social-links?query={query}&social_networks=facebook,tiktok,instagram,snapchat,twitter,youtube,linkedin,github,pinterest"
     headers = {
         "x-rapidapi-host": "social-links-search.p.rapidapi.com",
-        "x-rapidapi-key": "5092fa3ed9msha059ba448947976p1e6732jsn67df823a02ab"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     try:
@@ -1755,7 +1754,7 @@ def cek_digital_footprint():
     headers = {
         "Content-Type": "application/json",
         "x-rapidapi-host": "digital-footprint-api1.p.rapidapi.com",
-        "x-rapidapi-key": "5092fa3ed9msha059ba448947976p1e6732jsn67df823a02ab"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     payload = {
         "mobile": no,
@@ -1798,7 +1797,7 @@ def scrapey_links():
 
     headers = {
         "x-rapidapi-host": "scrapey-link-scraper.p.rapidapi.com",
-        "x-rapidapi-key": "5092fa3ed9msha059ba448947976p1e6732jsn67df823a02ab"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     try:
@@ -1833,7 +1832,7 @@ def scraping_api():
     headers = {
         "Content-Type": "application/json",
         "x-rapidapi-host": "scraper-tech.p.rapidapi.com",
-        "x-rapidapi-key": "6f6be78672msh90081e9e01ae3adp1c3959jsn793c499831a8"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     payload = {
         "url": url_target,
@@ -1866,7 +1865,7 @@ def truecaller_lookup():
     url = f"https://truecaller-data2.p.rapidapi.com/search/{number}"
     headers = {
         "x-rapidapi-host": "truecaller-data2.p.rapidapi.com",
-        "x-rapidapi-key": "6f6be78672msh90081e9e01ae3adp1c3959jsn793c499831a8"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     try:
@@ -1918,7 +1917,7 @@ def scan_js_vulns():
     headers = {
         "Content-Type": "application/json",
         "x-rapidapi-host": "active-cyber-defence-tools.p.rapidapi.com",
-        "x-rapidapi-key": "6f6be78672msh90081e9e01ae3adp1c3959jsn793c499831a8"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     payload = {
         "config": {
@@ -1985,7 +1984,7 @@ def scan_webspider():
     headers = {
         "Content-Type": "application/json",
         "x-rapidapi-host": "active-cyber-defence-tools.p.rapidapi.com",
-        "x-rapidapi-key": "5092fa3ed9msha059ba448947976p1e6732jsn67df823a02ab"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     payload = {
         "config": {
@@ -2084,7 +2083,7 @@ def github_osint_lookup():
         params = {"profileUrl": target_url}
         headers = {
             "x-rapidapi-host": "github-profiles-trending-developers-repositories-scrapping.p.rapidapi.com",
-            "x-rapidapi-key": "5092fa3ed9msha059ba448947976p1e6732jsn67df823a02ab"
+            "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
         }
 
         r = requests.get(api_url, headers=headers, params=params)
@@ -2134,7 +2133,7 @@ def fb_info_lookup():
     headers = {
         "Content-Type": "application/json",
         "x-rapidapi-host": "facebook-info-data.p.rapidapi.com",
-        "x-rapidapi-key": "d0f697a402msh5db691d2b18cfe3p1ca359jsnd9c219bd5948"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     payload = {"number": number}
 
@@ -2168,7 +2167,7 @@ def bin_checker():
     url = f"https://bin-ip-checker.p.rapidapi.com/?bin={bin_number}"
     headers = {
         "x-rapidapi-host": "bin-ip-checker.p.rapidapi.com",
-        "x-rapidapi-key": "d0f697a402msh5db691d2b18cfe3p1ca359jsnd9c219bd5948"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     try:
@@ -2255,7 +2254,7 @@ def cek_vat_number():
     url = f"https://vatify2.p.rapidapi.com/v1.0/validate?country_code={country_code}&number={number}"
     headers = {
         "x-rapidapi-host": "vatify2.p.rapidapi.com",
-        "x-rapidapi-key": "d0f697a402msh5db691d2b18cfe3p1ca359jsnd9c219bd5948"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     try:
@@ -2290,7 +2289,7 @@ def website_contact_finder():
 
     headers = {
         "x-rapidapi-host": "website-contact-finder.p.rapidapi.com",
-        "x-rapidapi-key": "d0f697a402msh5db691d2b18cfe3p1ca359jsnd9c219bd5948"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     params = {
         "url": target_url,
@@ -2344,7 +2343,7 @@ def cek_email_leak(email):
     url = f"https://leakcheck1.p.rapidapi.com/leaks/email/{email}"
     headers = {
         "x-rapidapi-host": "leakcheck1.p.rapidapi.com",
-        "x-rapidapi-key": "5092fa3ed9msha059ba448947976p1e6732jsn67df823a02ab"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     try:
@@ -2379,7 +2378,7 @@ def geocoder_nama():
 
         headers = {
             "x-rapidapi-host": "indonesia-geocoder.p.rapidapi.com",
-            "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f"
+            "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
         }
 
         response = requests.get(url, headers=headers)
