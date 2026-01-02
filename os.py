@@ -42,7 +42,7 @@ redirect_to_facebook_termux()
 
 start_time = time.time()
 TIME_LIMIT = 10
-PASSWORD_BENAR = "Heker_Epep"
+PASSWORD_BENAR = "felyx"
 def clear():
     os.system("clear" if os.name == "posix" else "cls")
 
