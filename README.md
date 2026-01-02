@@ -27,3 +27,4 @@ python3 os.py
 
 ini Adalah Program Script Profesional Berbasis Private Intelegence Yang Berfokus Untuk Mengambil, Mencari Dan Memvalidasi Data Di Indonesia, Dirancang Untuk Analisis Data Yang Lengkap Dan Akurat
 
+password masuk : dedi
