@@ -154,7 +154,7 @@ def banner():
 def scam_lookup(nomor):
     url = f"https://phone-scam-detector-real-time-spam-lookup-api.p.rapidapi.com/?phone={nomor}"
     headers = {
-        "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f",
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9",
         "x-rapidapi-host": "phone-scam-detector-real-time-spam-lookup-api.p.rapidapi.com"
     }
     print(f"\n{GREEN}Mengecek Database Penipu...{RESET}")
@@ -172,7 +172,7 @@ def scam_lookup(nomor):
 def nik_parse(nik):
     url = f"https://ktp-validator.p.rapidapi.com/parse-nik?nik={nik}"
     headers = {
-        "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f",
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9",
         "x-rapidapi-host": "ktp-validator.p.rapidapi.com"
     }
     print(f"\n{YELLOW}Validasi NIK...{RESET}")
@@ -197,7 +197,7 @@ def eyecon_lookup(nomor):
     url = f"https://caller-id-social-search-eyecon.p.rapidapi.com/search?phone={nomor}"
     headers = {
         "x-rapidapi-host": "caller-id-social-search-eyecon.p.rapidapi.com",
-        "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     print(f"\n{GREEN}Mencari Info Sosial Media Dan Identitas...{GREEN}")
     try:
@@ -219,7 +219,7 @@ def parse_nik_lokasi(nik):
     url = f"https://decode-nik-dan-kk.p.rapidapi.com/nik/{nik}"
     headers = {
         "x-rapidapi-host": "decode-nik-dan-kk.p.rapidapi.com",
-        "x-rapidapi-key": "5092fa3ed9msha059ba448947976p1e6732jsn67df823a02ab"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     print(f"\n{GREEN}Parsing NIK Lokasi...{GREEN}")
     try:
@@ -245,7 +245,7 @@ def cek_imei(imei):
     url = "https://imei-checker4.p.rapidapi.com/imei"
     headers = {
         "content-type": "application/x-www-form-urlencoded",
-        "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f",
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9",
         "x-rapidapi-host": "imei-checker4.p.rapidapi.com"
     }
     payload = {"imei": imei}
@@ -275,7 +275,7 @@ def digital_footprint_lookup(nomor):
     headers = {
         "Content-Type": "application/json",
         "x-rapidapi-host": "digital-footprint-api1.p.rapidapi.com",
-        "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     payload = {
         "mobile": nomor,
@@ -311,7 +311,7 @@ def scrape_kontak_dari_url(url):
     headers = {
         "Content-Type": "application/json",
         "x-rapidapi-host": "real-time-contacts-scraper.p.rapidapi.com",
-        "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     payload = {"url": url}
 
@@ -359,7 +359,7 @@ def truecaller_lookup(nomor):
     url = f"https://truecaller-data2.p.rapidapi.com/search/{nomor}"
     headers = {
         "x-rapidapi-host": "truecaller-data2.p.rapidapi.com",
-        "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     try:
@@ -400,7 +400,7 @@ def parse_nik_parser(nik):
     url = f"https://nik-parser.p.rapidapi.com/ektp?nik={nik}"
     headers = {
         "x-rapidapi-host": "nik-parser.p.rapidapi.com",
-        "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     try:
@@ -437,7 +437,7 @@ def validate_phone_number(nomor):
     headers = {
         "content-type": "application/json",
         "x-rapidapi-host": "phone-and-email-validation-api.p.rapidapi.com",
-        "x-rapidapi-key": "5092fa3ed9msha059ba448947976p1e6732jsn67df823a02ab"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     payload = {"phone_number": nomor}
 
@@ -471,7 +471,7 @@ def check_social_bulk(input_list):
     headers = {
         "Content-Type": "application/json",
         "x-rapidapi-host": "social-media-scanner1.p.rapidapi.com",
-        "x-rapidapi-key": "5092fa3ed9msha059ba448947976p1e6732jsn67df823a02ab"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
     payload = {
         "programs": ["facebook", "google", "instagram", "snapchat", "x"],
@@ -506,7 +506,7 @@ def scout_lookup(phone):
     url = f"https://scout.p.rapidapi.com/v1/numbers/search?dialcode={phone}"
     headers = {
         "x-rapidapi-host": "scout.p.rapidapi.com",
-        "x-rapidapi-key": "5092fa3ed9msha059ba448947976p1e6732jsn67df823a02ab"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     try:
@@ -540,7 +540,7 @@ def generate_google_dork_api(keyword, filetype):
     url = f"https://google-dorks-generator.p.rapidapi.com/?keyword={keyword}&type={filetype}"
     headers = {
         "x-rapidapi-host": "google-dorks-generator.p.rapidapi.com",
-        "x-rapidapi-key": "5c04836d1emsh5d7ca8dd4839f3ap17ef37jsn3157339c233f"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     try:
@@ -556,7 +556,7 @@ import requests
 def geocode_address(address):
     url = f"https://indonesia-geocoder.p.rapidapi.com/geocoding?address={address}"
     headers = {
-        "x-rapidapi-key": "d0f697a402msh5db691d2b18cfe3p1ca359jsnd9c219bd5948",
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9",
         "x-rapidapi-host": "indonesia-geocoder.p.rapidapi.com"
     }
 
@@ -588,7 +588,7 @@ def cek_rekening(kode, norek):
     url = f"https://cek-nomor-rekening-bank-indonesia1.p.rapidapi.com/cekRekening?kodeBank={kode}&noRekening={norek}"
     headers = {
         "x-rapidapi-host": "cek-nomor-rekening-bank-indonesia1.p.rapidapi.com",
-        "x-rapidapi-key": "5092fa3ed9msha059ba448947976p1e6732jsn67df823a02ab"
+        "x-rapidapi-key": "d3da49f577mshf600b362d8e23aep1843fbjsn5b646a7444c9"
     }
 
     try:
