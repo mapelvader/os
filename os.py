@@ -2421,7 +2421,7 @@ def main():
 [30] Demo Tracking (Fix!)      [31] Scout Tracking Nomor
 [32] Cari Jejak Digital Nomor  [33] Phone Metadata Maps
 [34] Cek Social Counter Url    [35] Bypass Url (Cloudflare & Waf)
-[36] Donasi & Dukungan         [37] Tebak Shio (Gacor)
+[36] Donasi & Dukungan         [37] Tembak GPS (Api googlemap)
 [38] Input Scanner (Pyload)    [39] Created Nokos Luar Negri
 [40] Cek Sms Masuk (Nokos)     [41] Database Plat Pelanggaran (Tilang)
 [42] Cari Akun Fb Instagram    [43] Cek Id Facebook
